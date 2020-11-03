@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Merriweather:wght@300&display=swap');
+body {font-family: Arial;}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+  overflow: hidden;
+  background-color: #0F0F0F;
+  height: auto;
+  position: fixed;
+  width: 100%;
+}
+
+.tab button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 35px;
+  transition: 0.9s;
+  font-size: 17px;
+  color: white;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.tab button:hover {
+  background-color: #FF5733;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.logo{
+    width: 10%;
+    margin: 10px;
+}
+.parallax1 {
+  background-image: url("foto%20inicio.jpg");
+
+  height: 100%; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo{
+    margin-left: 100px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 40px;
+    color: #FF5733;
+}
+.barra{
+    width: 100%;
+}
+.barra img{
+    width: 0.5%;
+    margin-left: 340px;
+    margin-top: -170px;
+}
+.quiensoy p{
+    font-size: 20px;
+    margin-left: 370px;
+    margin-top: -150px;
+    font-family: 'Roboto', sans-serif;
+ 
+}
+.trabajos{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.trabajos img{
+    width: 20%;
+}
+.presentacion{
+    background-color: #0F0F0F;
+    width: 100%;
+    height: 2500px;
+    margin-top: 70px;
+    padding-top: 40px;
+}
+.signo{
+    width: 30%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.presentacion p{
+    float: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 200px;
+    margin-left: -470px;
+    color: white;
+}
+.tarjeta{
+    width: 40%;
+    float: right;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+.vertrabajos{
+    float: right;
+    margin-top: 200px;
+    margin-right: 500px;
+}
+.fondonaranja{
+    width: 100%;
+    text-align: center;
+}
+.fondonaranja img{
+    width: 90%;
+}
+.mano{
+    width: 100%;
+}
+.mano img{
+    width: 30%;
+    margin-top: -587px;
+    margin-left: 1030px;
+}
+.comunicacion{
+    margin-top: -700px;
+    margin-left: 170px;
+}
+.textoredes{
+    color: white;
+    margin-top: -1520px;
+    margin-left: 173px;
+    font-size: 20px;
+}
+.vertrabajoblanco{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.coffee{
+    margin-left: 100px;
+    margin-top: 200px;
+    width: 100%;
+}
+.coffee img{
+    width: 80%;
+    
+}
+.packpremium{
+    margin-top: 400px;
+    margin-left: 100px;
+    width: 50%;
+}
+.textopack{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+}
+.coffeedark{
+    width: 100%;
+    margin-top: -450px;
+}
+.coffeedark img{
+    float: right;
+}
+.botonver{
+    float: left;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+.clear{
+    clear: both;
+}
+.foot{
+    width: 100%;
+}
+.tegustomitrabajo{
+    width: 100%;
+    text-align: center;
+}
+.tegustomitrabajo .titulotrabajo{
+    width: 30%;
+}
+.tegustomitrabajo .redessociales{
+    width: 10%;
+}
+.tegustomitrabajo .flechas{
+    30%;
+}
+.footbarra{
+    width: 100%;
+    margin-top: 100px;
+}
+.footbarra img{
+    width: 100%;
+}
+.titulosigno{
+    width: 100%;
+    text-align: center;
+}
+.titulosigno img{
+    width: 70%;
+}
+.titulosigno p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.limpiar{
+    width: 100%;
+    height: 100px;
+    clear: both;
+}
+.composicion{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.composicion img{
+    width: 60%;
+}
+.tarjetapersonal{
+    width: 100%;
+    margin-top: 200px;
+}
+.tarjetapersonal .titulotarjeta{
+    float: left;
+    width: 30%;
+    margin-left: 135px;
+}
+.textotarjeta p{
+    float: left;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 140px;
+}
+.tarjetapersonalfoto{
+    float: right;
+    width: 40%;
+    margin-top: -200px;
+    margin-right: 200px;
+}
+.barrasigno{
+    width: 90%;
+    height: 4px;
+    background-color: black;
+    margin-left: 80px;
+    margin-bottom: 100px;
+}
+.fondodepantalla{
+    width: 100%;
+}
+.titulofondodepantalla{
+    float: left;
+    width: 30%;
+    margin-left: 135px;
+}
+.fondodepantallafoto{
+    float: right;
+    width: 30%;
+    margin-top: -260px;
+    margin-right: 200px;
+}
+.reduccion{
+        width: 100%;
+    margin-top: 100px;
+}
+.reducciontitulo{
+    float: left;
+    width: 30%;
+    margin-left: 135px;
+}
+.reduccion p{
+        float: left;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 140px;
+}
+.reduccionfoto{
+    float: right;
+    width: 30%;
+    margin-top: -200px;
+    margin-right: 200px;
+}
